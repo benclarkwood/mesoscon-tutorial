@@ -1,0 +1,44 @@
+{
+  "assets": {
+    "container": {
+      "docker": {}
+    },
+    "uris": {
+      "jre-tar-gz": "{{jre-url}}",
+      "libmesos-bundle-tar-gz": "{{libmesos-bundle-url}}",
+      "scheduler-zip": "{{artifact-dir}}/memcache-scheduler.zip",
+      "executor-zip": "https://downloads.mesosphere.com/dcos-commons/artifacts/0.30.0/executor.zip",
+      "bootstrap-zip": "https://downloads.mesosphere.com/dcos-commons/artifacts/0.30.0/bootstrap.zip"
+    }
+  },
+  "images": {
+    "icon-small": "https://github.com/dcos/dcos-ui/blob/master/plugins/services/src/img/icon-service-default-small.png?raw=true",
+    "icon-medium": "https://github.com/dcos/dcos-ui/blob/master/plugins/services/src/img/icon-service-default-medium.png?raw=true",
+    "icon-large": "https://github.com/dcos/dcos-ui/blob/master/plugins/services/src/img/icon-service-default-large.png?raw=true"
+  },
+  "cli":{
+    "binaries":{
+      "darwin":{
+        "x86-64":{
+          "contentHash":[ { "algo":"sha256", "value":"{{sha256:dcos-memcache-cli-darwin}}" } ],
+          "kind":"executable",
+          "url":"{{artifact-dir}}/dcos-memcache-darwin"
+        }
+      },
+      "linux":{
+        "x86-64":{
+          "contentHash":[ { "algo":"sha256", "value":"{{sha256:dcos-memcache-cli-linux}}" } ],
+          "kind":"executable",
+          "url":"{{artifact-dir}}/dcos-memcache-linux"
+        }
+      },
+      "windows":{
+        "x86-64":{
+          "contentHash":[ { "algo":"sha256", "value":"{{sha256:dcos-memcache-cli.exe}}" } ],
+          "kind":"executable",
+          "url":"{{artifact-dir}}/dcos-memcache-cli.exe"
+        }
+      }
+    }
+  }
+}

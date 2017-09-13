@@ -1,0 +1,13 @@
+{
+  "packagingVersion": "3.0",
+  "minDcosReleaseVersion": "1.9",
+  "name": "memcache",
+  "version": "{{package-version}}",
+  "maintainer": "someone@notme.com",
+  "description": "Memcache on DC/OS",
+  "selected": false,
+  "framework": true,
+  "tags": ["memcache"],
+  "postInstallNotes": "Memcache is being installed!",
+  "postUninstallNotes": "Memcache is being uninstalled!"
+}

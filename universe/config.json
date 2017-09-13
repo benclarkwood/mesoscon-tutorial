@@ -1,0 +1,29 @@
+{
+  "type": "object",
+    "properties": {
+      "service": {
+        "type": "object",
+        "description": "DC/OS Memcache configuration properties",
+        "properties": {
+          "name": {
+            "title": "Service name",
+            "description": "The name of the memcache instance",
+            "type": "string",
+            "default": "memcache"
+          },
+          "user": {
+            "title": "User",
+            "description": "The user that the service will run as.",
+            "type": "string",
+            "default": "nobody"
+          },
+          "principal": {
+            "title": "Custom principal (optional)",
+            "description": "The principal for the memcache instance, or empty to use the default.",
+            "type": "string",
+            "default": ""
+          }
+        }
+      }
+    }
+  }

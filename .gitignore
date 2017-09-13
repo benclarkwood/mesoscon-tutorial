@@ -1,0 +1,9 @@
+.classpath
+.gradle
+.project
+.settings
+.vscode
+.DS_Store
+bin
+build
+tools/__pycache*
