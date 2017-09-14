@@ -22,14 +22,14 @@
         "x86-64":{
           "contentHash":[ { "algo":"sha256", "value":"{{sha256:dcos-memcache-cli-darwin}}" } ],
           "kind":"executable",
-          "url":"{{artifact-dir}}/dcos-memcache-darwin"
+          "url":"{{artifact-dir}}/dcos-memcache-cli-darwin"
         }
       },
       "linux":{
         "x86-64":{
           "contentHash":[ { "algo":"sha256", "value":"{{sha256:dcos-memcache-cli-linux}}" } ],
           "kind":"executable",
-          "url":"{{artifact-dir}}/dcos-memcache-linux"
+          "url":"{{artifact-dir}}/dcos-memcache-cli-linux"
         }
       },
       "windows":{
