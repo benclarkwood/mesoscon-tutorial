@@ -1,0 +1,71 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/alecthomas/template",
+			"repository": "https://github.com/alecthomas/template",
+			"vcs": "git",
+			"revision": "a0175ee3bccc567396460bf5acd36800cb10c49c",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/alecthomas/units",
+			"repository": "https://github.com/alecthomas/units",
+			"vcs": "git",
+			"revision": "2efee857e7cfd4f3d0138cc3cbb1b4966962b93a",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/mesosphere/dcos-commons/cli",
+			"repository": "https://github.com/mesosphere/dcos-commons",
+			"vcs": "git",
+			"revision": "209f4cbe4dd1774081260af91caa37484b6788ee",
+			"branch": "master",
+			"path": "/cli",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/nicksnyder/go-i18n/i18n",
+			"repository": "https://github.com/nicksnyder/go-i18n",
+			"vcs": "git",
+			"revision": "3e70a1a463008cea6726380c908b1a6a8bdf7b24",
+			"branch": "master",
+			"path": "/i18n",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/pelletier/go-toml",
+			"repository": "https://github.com/pelletier/go-toml",
+			"vcs": "git",
+			"revision": "1d6b12b7cb290426e27e6b4e38b89fcda3aeef03",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/alecthomas/kingpin.v2",
+			"repository": "https://gopkg.in/alecthomas/kingpin.v2",
+			"vcs": "git",
+			"revision": "1087e65c9441605df944fb12c33f0fe7072d18ca",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/alecthomas/kingpin.v3-unstable",
+			"repository": "https://gopkg.in/alecthomas/kingpin.v3-unstable",
+			"vcs": "git",
+			"revision": "df515428b82f5671a14d4cee1ccaa7d5e63685a5",
+			"branch": "v3-unstable",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"vcs": "git",
+			"revision": "eb3733d160e74a9c7e442f435eb3bea458e1d19f",
+			"branch": "v2",
+			"notests": true
+		}
+	]
+}
