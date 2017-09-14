@@ -1,0 +1,35 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "MIrxscEtb69bnPBrv/APi/f09xA=",
+			"origin": "mesoscon-tutorial/cli/dcos-memcache/vendor/github.com/alecthomas/template",
+			"path": "github.com/alecthomas/template",
+			"revision": "4694a0cd9131e863ce2f07843405fe0339e95e6c",
+			"revisionTime": "2017-09-14T17:54:06Z"
+		},
+		{
+			"checksumSHA1": "3wt0pTXXeS+S93unwhGoLIyGX/Q=",
+			"origin": "mesoscon-tutorial/cli/dcos-memcache/vendor/github.com/alecthomas/template/parse",
+			"path": "github.com/alecthomas/template/parse",
+			"revision": "4694a0cd9131e863ce2f07843405fe0339e95e6c",
+			"revisionTime": "2017-09-14T17:54:06Z"
+		},
+		{
+			"checksumSHA1": "HouOrc//31r7skq3GHJxAGFNh7s=",
+			"origin": "mesoscon-tutorial/cli/dcos-memcache/vendor/github.com/alecthomas/units",
+			"path": "github.com/alecthomas/units",
+			"revision": "4694a0cd9131e863ce2f07843405fe0339e95e6c",
+			"revisionTime": "2017-09-14T17:54:06Z"
+		},
+		{
+			"checksumSHA1": "Ioc1WgL2qiHkEyqkwbFbWqfNxCo=",
+			"origin": "mesoscon-tutorial/cli/dcos-memcache/vendor/gopkg.in/alecthomas/kingpin.v2",
+			"path": "gopkg.in/alecthomas/kingpin.v2",
+			"revision": "4694a0cd9131e863ce2f07843405fe0339e95e6c",
+			"revisionTime": "2017-09-14T17:54:06Z"
+		}
+	],
+	"rootPath": "mesoscon-tutorial"
+}
